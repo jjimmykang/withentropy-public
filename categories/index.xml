@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on With Entropy</title>
-    <link>https://withentropy.com/categories/</link>
+    <link>https://www.withentropy.com/categories/</link>
     <description>Recent content in Categories on With Entropy</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://withentropy.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://www.withentropy.com/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
