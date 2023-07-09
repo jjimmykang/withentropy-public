@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>blog on With Entropy</title>
-    <link>http://withentropy.com/blog/</link>
+    <link>https://withentropy.com/blog/</link>
     <description>Recent content in blog on With Entropy</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 08 Jul 2023 21:27:11 -0700</lastBuildDate><atom:link href="http://withentropy.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 08 Jul 2023 21:27:11 -0700</lastBuildDate><atom:link href="https://withentropy.com/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>You Need Empathy</title>
-      <link>http://withentropy.com/blog/youneedempathy/</link>
+      <link>https://withentropy.com/blog/youneedempathy/</link>
       <pubDate>Sat, 08 Jul 2023 21:27:11 -0700</pubDate>
       
-      <guid>http://withentropy.com/blog/youneedempathy/</guid>
+      <guid>https://withentropy.com/blog/youneedempathy/</guid>
       <description>An interesting notion came to me. In the shower, I was musing about my lack of ideas for topics to write about. I briefly explored the possibility that I simply don&amp;rsquo;t have that many interesting thoughts. Maybe just forcing myself to write stuff out just made that obvious, but I don&amp;rsquo;t think it&amp;rsquo;s as simple as that. I can talk peoples&amp;rsquo; ears off in real life.
 It&amp;rsquo;s simple; I just expect you to know everything I already do.</description>
     </item>

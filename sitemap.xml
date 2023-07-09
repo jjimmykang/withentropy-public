@@ -2,19 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://withentropy.com/</loc>
+    <loc>https://withentropy.com/</loc>
     <lastmod>2023-07-08T21:27:11-07:00</lastmod>
   </url><url>
-    <loc>http://withentropy.com/blog/</loc>
+    <loc>https://withentropy.com/blog/</loc>
     <lastmod>2023-07-08T21:27:11-07:00</lastmod>
   </url><url>
-    <loc>http://withentropy.com/blog/youneedempathy/</loc>
+    <loc>https://withentropy.com/blog/youneedempathy/</loc>
     <lastmod>2023-07-08T21:27:11-07:00</lastmod>
   </url><url>
-    <loc>http://withentropy.com/aboutme/</loc>
+    <loc>https://withentropy.com/aboutme/</loc>
   </url><url>
-    <loc>http://withentropy.com/categories/</loc>
+    <loc>https://withentropy.com/categories/</loc>
   </url><url>
-    <loc>http://withentropy.com/tags/</loc>
+    <loc>https://withentropy.com/tags/</loc>
   </url>
 </urlset>
