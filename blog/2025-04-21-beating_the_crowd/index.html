@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta http-equiv="X-Clacks-Overhead" content="GNU Terry Pratchett" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Beating the Crowd | With Entropy</title>
+<meta name="title" content="Beating the Crowd" />
+<meta name="description" content="Suppose you are participating in an auction for a box.
+Nobody knows exactly what is in the box, but they are bidding on it for various reasons;
+some think they can make money, some might have sentimental reasons, and others might just be having fun.
+You yourself are trying to make money.
+You asked around a bit, did some research, and think that you have a good estimate for the value of the box.
+You think it&rsquo;s worth $10,000 and decide to bid $9,000." />
+<meta name="keywords" content="" />
+
+
+<meta property="og:url" content="https://www.withentropy.com/blog/2025-04-21-beating_the_crowd/">
+  <meta property="og:site_name" content="With Entropy">
+  <meta property="og:title" content="Beating the Crowd">
+  <meta property="og:description" content="Suppose you are participating in an auction for a box. Nobody knows exactly what is in the box, but they are bidding on it for various reasons; some think they can make money, some might have sentimental reasons, and others might just be having fun. You yourself are trying to make money. You asked around a bit, did some research, and think that you have a good estimate for the value of the box. You think it’s worth $10,000 and decide to bid $9,000.">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="blog">
+    <meta property="article:published_time" content="2025-04-27T00:07:52-07:00">
+    <meta property="article:modified_time" content="2025-04-27T00:07:52-07:00">
+
+
+
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Beating the Crowd">
+  <meta name="twitter:description" content="Suppose you are participating in an auction for a box. Nobody knows exactly what is in the box, but they are bidding on it for various reasons; some think they can make money, some might have sentimental reasons, and others might just be having fun. You yourself are trying to make money. You asked around a bit, did some research, and think that you have a good estimate for the value of the box. You think it’s worth $10,000 and decide to bid $9,000.">
+
+
+
+
+  <meta itemprop="name" content="Beating the Crowd">
+  <meta itemprop="description" content="Suppose you are participating in an auction for a box. Nobody knows exactly what is in the box, but they are bidding on it for various reasons; some think they can make money, some might have sentimental reasons, and others might just be having fun. You yourself are trying to make money. You asked around a bit, did some research, and think that you have a good estimate for the value of the box. You think it’s worth $10,000 and decide to bid $9,000.">
+  <meta itemprop="datePublished" content="2025-04-27T00:07:52-07:00">
+  <meta itemprop="dateModified" content="2025-04-27T00:07:52-07:00">
+  <meta itemprop="wordCount" content="1175">
+<meta name="referrer" content="no-referrer-when-downgrade" />
+
+  <style>
+  body {
+    font-family: Verdana, sans-serif;
+    margin: auto;
+    padding: 20px;
+    max-width: 720px;
+    text-align: left;
+    background-color: #fff;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    line-height: 1.5;
+    color: #444;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  strong,
+  b {
+    color: #222;
+  }
+
+  a {
+    color: #3273dc;
+     
+  }
+
+  .title {
+    text-decoration: none;
+    border: 0;
+  }
+
+  .title span {
+    font-weight: 400;
+  }
+
+  nav a {
+    margin-right: 10px;
+  }
+
+  textarea {
+    width: 100%;
+    font-size: 16px;
+  }
+
+  input {
+    font-size: 16px;
+  }
+
+  content {
+    line-height: 1.6;
+  }
+
+  table {
+    width: 100%;
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  code {
+    padding: 2px 5px;
+    background-color: #f2f2f2;
+  }
+
+  pre code {
+    color: #222;
+    display: block;
+    padding: 20px;
+    white-space: pre-wrap;
+    font-size: 14px;
+    overflow-x: auto;
+  }
+
+  div.highlight pre {
+    background-color: initial;
+    color: initial;
+  }
+
+  div.highlight code {
+    background-color: unset;
+    color: unset;
+  }
+
+  blockquote {
+    border-left: 1px solid #999;
+    color: #222;
+    padding-left: 20px;
+    font-style: italic;
+  }
+
+  footer {
+    padding: 25px;
+    text-align: center;
+  }
+
+  .helptext {
+    color: #777;
+    font-size: small;
+  }
+
+  .errorlist {
+    color: #eba613;
+    font-size: small;
+  }
+
+   
+  ul.blog-posts {
+    list-style-type: none;
+    padding: unset;
+  }
+
+  ul.blog-posts li {
+    display: flex;
+  }
+
+  ul.blog-posts li span {
+    flex: 0 0 130px;
+  }
+
+  ul.blog-posts li a:visited {
+    color: #8b6fcb;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    body {
+      background-color: #333;
+      color: #ddd;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    strong,
+    b {
+      color: #eee;
+    }
+
+    a {
+      color: #8cc2dd;
+    }
+
+    code {
+      background-color: #777;
+    }
+
+    pre code {
+      color: #ddd;
+    }
+
+    blockquote {
+      color: #ccc;
+    }
+
+    textarea,
+    input {
+      background-color: #252525;
+      color: #ddd;
+    }
+
+    .helptext {
+      color: #aaa;
+    }
+  }
+
+</style>
+
+</head>
+
+<body>
+  <header><a href="/" class="title">
+  <h2>With Entropy</h2>
+</a>
+<nav><a href="/">Home</a>
+
+
+<a href="/blog">Blog</a>
+
+</nav>
+</header>
+  <main>
+
+<h1>Beating the Crowd</h1>
+<p>
+  <i>
+    <time datetime='2025-04-27' pubdate>
+      27 Apr, 2025
+    </time>
+  </i>
+</p>
+
+<content>
+  <p>Suppose you are participating in an auction for a box.
+Nobody knows exactly what is in the box, but they are bidding on it for various reasons;
+some think they can make money, some might have sentimental reasons, and others might just be having fun.
+You yourself are trying to make money.
+You asked around a bit, did some research, and think that you have a good estimate for the value of the box.
+You think it&rsquo;s worth $10,000 and decide to bid $9,000.</p>
+<p>You won.</p>
+<p>How do you feel?
+Great? You made money (on average, you think)!
+But thinking about it a little more gives you pause.
+The rest of the world bid for this box and your bid beat all of them.
+Every single person who did their own research, and presumably thought just as hard as you, decided to bid less.
+Could it really be that you know more than all of them?
+You open the box, and find a $100 bill inside.</p>
+<p>It&rsquo;s a bit of a contrived example, but it illustrates the point nonetheless.
+You might have had a reasonable confidence interval <em>in isolation</em>.
+But the very fact that you won the bid, that you were more aggressive than the rest of the world,
+shifts the probability of your decision actually being good vastly against you.
+Professional traders think very hard about this.
+It&rsquo;s why firms like CitSec <a href="https://cdn.robinhood.com/assets/robinhood/legal/RHS%20SEC%20Rule%20606%20and%20607%20Disclosure.pdf">pay for order flow from brokers like Robinhood</a>.<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>
+It&rsquo;s very simple: if you had to win an auction, you should want to win it against a random retail &ldquo;trader&rdquo; rather than a professional hedge fund.</p>
+<p>The question, then, is whether the world is usually correct with their hunches.
+Statistician Francis Galton tried to find out through a well-known <a href="https://www.nature.com/articles/075450a0">experiment</a>.
+He asked a group of people to independently guess the weight of a displayed ox.
+The average guess turned out to be within a couple of pounds of the correct weight.
+This seems surprising, but is logically consistent:
+in the absence of other information or opinions, one would have to assume the average human guesses any quantity correctly.
+To say anything else implies an opinion that the mean human would cognitively overestimate or underestimate the quantity,
+and this is equivalent to an opinion on human cognitive bias for this specific problem.
+Like anything, there are exceptions everywhere; my claim is merely that in isolation of any other opinion,
+a crowd&rsquo;s guess of a quantity/decision tends to be pretty good.</p>
+<p>These two concepts are very powerful even beyond isolated price discovery settings, and you can find applications everywhere.
+Off the top of my head, here are some examples ranked in severity.<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup></p>
+<ul>
+<li>You are in line at Disneyland for a ride.
+There&rsquo;s an announcement: the ride is temporarily out of commission, but the park expects it to be operational again &ldquo;very soon.&rdquo;
+You don&rsquo;t mind waiting a bit, but in front of you people groan and start to leave the line.
+How long will the wait be?</li>
+<li>You&rsquo;ve been trying to get a reservation at a hot new restaurant for a while, but never could.
+But today, you finally managed to snag a 7 pm reservation on a Friday night.
+Did you just get lucky, or is the restaurant less popular for some reason?</li>
+<li>You accept a prestigious job at a company out of undergrad.
+A competitive tech or trading firm, perhaps.
+You think to yourself, you were in the top 0.1% that beat the other 99.9% out of the candidate pool.
+Another way to look at it is that, out of the group the company was willing to hire, you are probably near the bottom - i.e. you could not find anything better.</li>
+<li>You start dating someone very attractive.
+The most attractive you&rsquo;ve ever had a chance with.
+Why are they in the relationship?</li>
+</ul>
+<p>When can you go against the crowd, and be a winner without the curse?
+There are several dynamics that can give you good reason to do this.
+I&rsquo;ve listed out the top three.</p>
+<p>The first, and the most common dynamic, is one that is decided by an informational edge.
+In the Disneyland example, your reaction should change depending on how much you know about the park itself.
+If you are an annual passholder and you&rsquo;ve been to this ride many times,
+and know that delays often get resolved quickly, you would be reasonable to stay.
+If you have never been to the park and do not know anything about it,
+it may be better to follow the wisdom of the crowd and assume that the market is being reasonable when deciding that waiting is not worth it.
+Either way, your action is grounded in your own prior knowledge but ultimately depends on whether you think you know more than others.</p>
+<p>The second is defined by the difference in each party&rsquo;s willingness.
+Let&rsquo;s pick the restaurant example.
+If the night of the reservation is Christmas, a hypothesis is that the average person is more likely to be at home with family.
+They are not willing to eat out at the restaurant for a reason that you are aware of.
+Your preferences are different.
+Though this seems to be closely tied to an informational edge, the difference is that every party has the same amount of information.
+It&rsquo;s just that due to their personal preference, they choose not to take the same decision as you.</p>
+<p>This leads us to the third exception: differing situations.
+The dating and marriage market is the quintessential illustration of this.
+Why is your significant other dating you?
+One important aspect is that there&rsquo;s some inertia: no one else has the specific set of interactions you&rsquo;ve shared
+and the (presumably) demonstrated emotional and physical connection.
+Both parties have made the decision that it&rsquo;s not worth throwing the relationship away to take a gamble in the dating market again.
+Optimally stopped.
+This works because like all things, this is not an isolated auction setting.
+There definitely exists someone out there that is better than you in all aspects; but they are not <em>you</em>.
+They don&rsquo;t have the same experiences, the same history, nor the same circumstances to be able to make the same romantic trade you are making.</p>
+<p>So what can we do?</p>
+<p>An important thing to keep in mind is that all of these listed exceptions and more intertwine with each other.
+They&rsquo;re always pushing and tugging on your decisions, but lead to the same result:
+decisions should never be made in isolation.
+In practice I keep a two-step checklist: make the decision in a vacuum, then color that decision in the light of what others are doing.
+Every time I skip step two, I end up regretting it.</p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>I actually don&rsquo;t think this directly makes money. Retail wholesaling is probably worth more as a signal, but that&rsquo;s a discussion for another time.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p>Strictly speaking, these examples mix a lot of separate concepts such as winner&rsquo;s curse, adverse selection, wisdom of the crowds, and more.
+But I&rsquo;m not here to be a purist. All of these concepts intermingle.&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+
+</content>
+<p>
+  
+</p>
+
+  </main>
+  <footer>Made with <a href="https://github.com/janraasch/hugo-bearblog/">Hugo ʕ•ᴥ•ʔ Bear</a>
+</footer>
+
+    
+</body>
+
+</html>
